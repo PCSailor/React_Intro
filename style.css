@@ -1,0 +1,24 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    /*background-color: red;*/
+}
+
+h1 {
+    color: green;
+}
+
+.header.logo.logo-emphasis {
+    color: red;
+}
+
+#sideboard h1 {
+    color: blue;
+}
+
+#uppercase-input {
+    text-transform: uppercase;
+}
