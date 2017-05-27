@@ -114,5 +114,21 @@ aTimer();
 --
 #Question 5:  blue
 
+#---------------------------------------------------------------------------------
+
+from:	Marc Grabanski <marc@mjg.in>
+to:	Philip Curtis <Phil@philcurtis.io>
+date:	Fri, May 26, 2017 at 1:59 PM
+subject:	Re: ✍️ [Quiz] Complete Intro to React In-Person
+
+3 of these are wrong...
+
+#1 should be line 7 and 8 -- should show an understanding of context / scope in javascript
+
+#3 should show an understanding of closure and recursion
+
+#4 won't work because lowercase values are still submitted through the form -- you're only changing the display with CSS and not the actual values in the input
+
+You need to update your quiz answers.
 
 
