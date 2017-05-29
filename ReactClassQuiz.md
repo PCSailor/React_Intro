@@ -6,10 +6,10 @@ var logger = {
         console.log(this.leadText + str)
     }
 }
-
+7 & 8 here!
 var fn = logger.info
 fn('function was called')
-Why does the above code not work? What line could you add between 11 and 12 that would make it work.
+Why does the above code not work? What line could you add between 7 and 8 that would make it work.
 
 #Question 2
 What are the map, reduce, and filter functions on Array.prototype? When would you use them and why?
@@ -130,5 +130,39 @@ subject:	Re: ✍️ [Quiz] Complete Intro to React In-Person
 #4 won't work because lowercase values are still submitted through the form -- you're only changing the display with CSS and not the actual values in the input
 
 You need to update your quiz answers.
+#--------------------------------------------------------------------------------------
+Research: Question #1
+Research: Question #2
+Research: Question #3
+#3 should show an understanding of closure and recursion
+Write a piece of code so that if I call repeat('test code', 2, 5) that console.log the string 'test code' once every 2 seconds 5 times and then stop.
+
+Closure is simply a function or procedure that "closes over" an environment (it's body). In your code, init, displayName, and factorial are all closures. You use JavaScript function keyword (or now we have => arrow functions in ES6) when you want to create a closure.
+    Any time you define a function, you make a closure.
+
+Recursion is the effect of a procedure repeating itself. Suppose you have a picture of a person holding a box. On the box there is a picture of the same person holding the same box that has a picture on it. The picture includes itself.
+
+#Question 3:  function repeat() {
+    setTimeout(timeOut1, 2000);
+    setTimeout(timeOut2, 4000);
+    setTimeout(timeOut3, 6000);
+    setTimeout(timeOut4, 8000);
+    setTimeout(timeOut5, 10000);
+    clearInterval();
+}
+function timeOut1() { console.log('test code'); }
+function timeOut2() { console.log('test code'); }
+function timeOut3() { console.log('test code'); }
+function timeOut4() { console.log('test code'); }
+function timeOut5() { console.log('test code'); }
+repeat();
+
+
+
+#Question 4
+<div>
+    <input type='text' id='uppercase-input' />
+    <!--<input type="text" style="text-transform: uppercase">-->
+</div>
 
 
